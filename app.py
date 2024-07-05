@@ -4,7 +4,7 @@ from pymongo import MongoClient
 from urllib.parse import urlparse, parse_qs
 from bson import json_util
 
-# Connect to MongoDB
+# Connect to MongoDB 
 mongo_client = MongoClient("mongodb://mongodb:27017")
 db = mongo_client['mydb']
 collection = db['items']
